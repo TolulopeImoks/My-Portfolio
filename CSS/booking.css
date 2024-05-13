@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.booking-card{
+    max-width: 90%;
+    padding: 40px;
+    margin: 74px;
+}
+
+.booking-h2{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+fieldset{
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+legend{
+    padding: 10px;
+    margin: 5px;
+    background-color: #333;
+    color: wheat;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+button
+{
+ width: 50%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+}
+
+
+label{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.booking-button{
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid #001111;
+
+}
+
+.booking-button:hover{
+    background-color: #333;
+    color: wheat;
+}
